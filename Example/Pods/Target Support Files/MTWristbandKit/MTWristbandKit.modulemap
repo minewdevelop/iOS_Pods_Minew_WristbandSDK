@@ -1,0 +1,6 @@
+framework module MTWristbandKit {
+  umbrella header "MTWristbandKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_MTWristbandKit_Example {
+  umbrella header "Pods-MTWristbandKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
