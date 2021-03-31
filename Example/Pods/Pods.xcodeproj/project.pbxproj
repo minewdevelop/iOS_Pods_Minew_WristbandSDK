@@ -18,11 +18,11 @@
 		36DB9CEA9C698D8CAB1EE28B93E6D5FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4B149045383838486EC974B2A5A854CB /* Pods-MTWristbandKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DAF9B83B0373F25AFC8F1321EE9D00 /* Pods-MTWristbandKit_Tests-dummy.m */; };
+		6A0E18FB26148C28009CD607 /* MTCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A0E18FA26148C28009CD607 /* MTCommand.h */; };
 		6ADA150E2567AF49004A70D6 /* MTWristbandKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADA150D2567AF49004A70D6 /* MTWristbandKit.framework */; };
 		6ADA15152567AF5E004A70D6 /* MTWristbandConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADA150F2567AF5E004A70D6 /* MTWristbandConnection.h */; };
 		6ADA15162567AF5E004A70D6 /* MTWristbandBroadcast.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADA15102567AF5E004A70D6 /* MTWristbandBroadcast.h */; };
 		6ADA15172567AF5E004A70D6 /* MTWristbandKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADA15112567AF5E004A70D6 /* MTWristbandKit.h */; };
-		6ADA15182567AF5E004A70D6 /* MTUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADA15122567AF5E004A70D6 /* MTUtils.h */; };
 		6ADA15192567AF5E004A70D6 /* MTWristbandCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADA15132567AF5E004A70D6 /* MTWristbandCentralManager.h */; };
 		6ADA151A2567AF5E004A70D6 /* MTWristbandPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADA15142567AF5E004A70D6 /* MTWristbandPeripheral.h */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
@@ -95,12 +95,12 @@
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF03877243E3E13572CE75A20ED12AC /* MTWristbandKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTWristbandKit-dummy.m"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		6A0E18FA26148C28009CD607 /* MTCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTCommand.h; path = MTWristbandKit/Classes/MTCommand.h; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6ADA150D2567AF49004A70D6 /* MTWristbandKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTWristbandKit.framework; sourceTree = "<group>"; };
 		6ADA150F2567AF5E004A70D6 /* MTWristbandConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTWristbandConnection.h; path = MTWristbandKit/Classes/MTWristbandConnection.h; sourceTree = "<group>"; };
 		6ADA15102567AF5E004A70D6 /* MTWristbandBroadcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTWristbandBroadcast.h; path = MTWristbandKit/Classes/MTWristbandBroadcast.h; sourceTree = "<group>"; };
 		6ADA15112567AF5E004A70D6 /* MTWristbandKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTWristbandKit.h; path = MTWristbandKit/Classes/MTWristbandKit.h; sourceTree = "<group>"; };
-		6ADA15122567AF5E004A70D6 /* MTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTUtils.h; path = MTWristbandKit/Classes/MTUtils.h; sourceTree = "<group>"; };
 		6ADA15132567AF5E004A70D6 /* MTWristbandCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTWristbandCentralManager.h; path = MTWristbandKit/Classes/MTWristbandCentralManager.h; sourceTree = "<group>"; };
 		6ADA15142567AF5E004A70D6 /* MTWristbandPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTWristbandPeripheral.h; path = MTWristbandKit/Classes/MTWristbandPeripheral.h; sourceTree = "<group>"; };
 		776DDDF4CC0DAC41D0CC50F3D6F7FE89 /* Pods-MTWristbandKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTWristbandKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -182,7 +182,7 @@
 		189E88F64AB3AF6BF0D63ED9DB6A72D5 /* MTWristbandKit */ = {
 			isa = PBXGroup;
 			children = (
-				6ADA15122567AF5E004A70D6 /* MTUtils.h */,
+				6A0E18FA26148C28009CD607 /* MTCommand.h */,
 				6ADA15102567AF5E004A70D6 /* MTWristbandBroadcast.h */,
 				6ADA15132567AF5E004A70D6 /* MTWristbandCentralManager.h */,
 				6ADA150F2567AF5E004A70D6 /* MTWristbandConnection.h */,
@@ -411,9 +411,9 @@
 				6ADA15172567AF5E004A70D6 /* MTWristbandKit.h in Headers */,
 				10A25408DFF1BD680410104D7D96A876 /* MTWristbandKit-umbrella.h in Headers */,
 				6ADA15162567AF5E004A70D6 /* MTWristbandBroadcast.h in Headers */,
+				6A0E18FB26148C28009CD607 /* MTCommand.h in Headers */,
 				6ADA15192567AF5E004A70D6 /* MTWristbandCentralManager.h in Headers */,
 				6ADA151A2567AF5E004A70D6 /* MTWristbandPeripheral.h in Headers */,
-				6ADA15182567AF5E004A70D6 /* MTUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
